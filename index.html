@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Clock Project</title>
+</head>
+
+<body>
+  <p>My Clock</p>
+  <!-- 時間(h) -->
+  <div id="Hours_number">
+    <!-- 時間(h)1桁目 -->
+    <div class="clock_number">
+      <div class="clock_stick .h0_1"></div>
+      <div class="clock_stick-side left .h0_1 .h0_2"></div>
+      <div class="clock_stick-side right"></div>
+      <div class="clock_stick position .h0_0 .h0_1"></div>
+      <div class="clock_stick-side left position .h0_1"></div>
+      <div class="clock_stick-side right position .h0_2"></div>
+      <div class="clock_stick position_last .h0_1"></div>
+    </div>
+    <!-- 時間(h)2桁目 -->
+    <div class="clock_number">
+      <div class="clock_stick .h1_1 .h1_4"></div>
+      <div class="clock_stick-side left .h1_1 .h1_2 .h1_3 .h1_7"></div>
+      <div class="clock_stick-side right .h1_5 .h1_6"></div>
+      <div class="clock_stick position .h1_0 .h1_1 .h1_7"></div>
+      <div class="clock_stick-side left position .h1_1 .h1_3 .h1_4 .h1_5 .h1_7 .h1_9"></div>
+      <div class="clock_stick-side right position .h1_2"></div>
+      <div class="clock_stick position_last .h1_1 .h1_4 .h1_7"></div>
+    </div>
+  </div>
+  <!-- 中央の・ -->
+  <div class="center">
+    <div class="center_round"></div>
+    <div class="center_round second"></div>
+  </div>
+  <!-- 分(m) -->
+  <div id="Minutes_number">
+    <!-- 分(m)の1桁目 -->
+    <div class="clock_number">
+      <div class="clock_stick .m0_1 .m0_4"></div>
+      <div class="clock_stick-side left .m0_1 .m0_2 .m0_3 .m0_7"></div>
+      <div class="clock_stick-side right .m0_5 .m0_6"></div>
+      <div class="clock_stick position .m0_0 .m0_1 .m0_7"></div>
+      <div class="clock_stick-side left position .m0_1 .m0_3 .m0_4 .m0_5 .m0_7 .m0_9"></div>
+      <div class="clock_stick-side right position .m0_2"></div>
+      <div class="clock_stick position_last .m0_1 .m0_4 .m0_7"></div>
+    </div>
+    <!-- 分(m)の2桁目 -->
+    <div class="clock_number">
+      <div class="clock_stick .m1_1 .m1_4"></div>
+      <div class="clock_stick-side left .m1_1 .m1_2 .m1_3 .m1_7"></div>
+      <div class="clock_stick-side right .m1_5 .m1_6"></div>
+      <div class="clock_stick position .m1_0 .m1_1 .m1_7"></div>
+      <div class="clock_stick-side left position .m1_1 .m1_3 .m1_4 .m1_5 .m1_7 .m1_9"></div>
+      <div class="clock_stick-side right position .m1_2"></div>
+      <div class="clock_stick position_last .m1_1 .m1_4 .m1_7"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
